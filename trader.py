@@ -6,7 +6,7 @@ import time
 '''
     This is a trading script that you can run in the cloud and customize with your own trading algorithms
 
-    The example uses the Alpaca Trading API, which is a free algorithmic trading platform that allows for paper trading
+    The example uses the Alpaca Trading API.
     You can setup a free account on Alpaca here: https://alpaca.markets/
 
     Alternatively, edit the getMarketData, Buy, and Sell functions to connect your own APIS
@@ -77,4 +77,5 @@ while True:
         pos_held = False
     
     time.sleep(60)
+
 
